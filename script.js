@@ -36,8 +36,10 @@ function BMICalculator() {
             caltegory
         }
 
-    result.innerHTML = `Your BMI is ${BMI} and you are ${category}`
+    // result.innerHTML = `Your BMI is ${BMI} and you are ${category}`
+    result.innerHTML = `Your BMI is ${BMI} and  ${category}`
     
 
 }
+
 
