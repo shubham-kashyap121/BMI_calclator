@@ -19,23 +19,25 @@ function BMICalculator() {
     }
 
         if (BMI <= 18.5) {
-            category = 'UNDER WEIGHT'
-            // category = 'MUTTHAL'
+            // category = 'UNDER WEIGHT'
+            category = 'MUTTHAL'
         }else if (BMI > 18.5 && BMI <= 24.9) {
-            category = 'NORMAL'
-            // category = 'TU THIK HAI'
+            // category = 'NORMAL'
+            category = 'TU THIK HAI'
         }else if (BMI >= 25 && BMI <= 29.5 ) {
-            category = 'OVER WEIGHT'
-            // category = 'BKL MOTE HAI TU'
+            // category = 'OVER WEIGHT'
+            category = 'BKL MOTE HAI TU'
 
         }else if (BMI >=30 && BMI <= 34.9) {
-            // category = 'BKL BHAINSH HAI KYA TU'
-            category = 'OBESE'
+            category = 'BKL BHAINSH HAI KYA TU'
+            // category = 'OBESE'
         }else if (BMI >35 ) {
             category = 'EXTREMELY OBESE'
+            caltegory
         }
 
     result.innerHTML = `Your BMI is ${BMI} and you are ${category}`
     
 
 }
+
